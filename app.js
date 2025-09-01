@@ -38,7 +38,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // CORS (allow your React dev server)
 app.use(
   cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://code-ide001.netlify.app',
     credentials: true,
   })
 );
